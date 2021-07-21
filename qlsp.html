@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng quản lý sản phẩm</title>
+</head>
+<link rel="stylesheet" href="qlsp.css">
+<body>
+<h1>Ứng dụng quản lý sản phẩm</h1>
+<hr>
+<fieldset>
+    <legend>THÊM SẢN PHẨM</legend>
+    <input type="text" id="input" placeholder="Nhập tên sản phẩm cần thêm">
+    <button onclick="addProduct()"> Thêm</button>
+    <p id="output"></p>
+</fieldset>
+<fieldset>
+    <legend>DANH MỤC SẢN PHẨM</legend>
+    <table cellspacing="1px" cellpadding="1px" border="1px">
+        <tr>
+            <th width="300px">TÊN SẢN PHẨM</th>
+            <th COLSPAN="2" WIDTH="200px">CHỈNH SỬA</th>
+        </tr>
+        <tbody id="nameProduct">
+
+        </tbody>
+    </table>
+</fieldset>
+<script src="qlsp.js"></script>
+</body>
+</html>
